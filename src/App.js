@@ -1,5 +1,6 @@
 import Navbar from './components/Navbar';
 import Comenzar from './components/Comenzar';
+import Contacto from './components/Contacto';
 
 import './App.css';
 
@@ -9,6 +10,7 @@ function App() {
   <h1>Hola hello</h1>
   <Navbar />
   <Comenzar />
+  <Contacto />
   </>
   );
 }
