@@ -15,6 +15,27 @@
     padding:  15px 20x;
     align-items: center;
 }
+.contenedor-contenido {
+    
+    width: 100%;
+    top:0;
+    left: 0;
+    background: linear-gradient(to right, #1CB698, #1e2326, white);
+    
+}
+.contenedor-contenido .contenido{
+    max-width: 1100px;
+    margin: auto;
+    display: flexbox;
+    justify-content: space-between;
+    padding:  15px 20x;
+    align-items: center;
+   
+    
+  
+    
+}
+
 
 .contenedor-header header .logo a {
     font-family: 'Times New Roman', Times, serif;
@@ -23,4 +44,3 @@
     text-decoration: none;
  }
 
- 

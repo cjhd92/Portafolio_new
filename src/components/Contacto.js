@@ -4,7 +4,7 @@ import React from 'react';
 const Contacto = () => {
     return (
     <> 
-    <div className='container' style={{ backgroundImage: 'url(/contact_backg.png)', backgroundSize: 'cover', height: '500px', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', paddingTop: '50px' }}>
+    <div className='container' style={{  backgroundSize: 'cover', height: '500px', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', paddingTop: '50px' }}>
     <h1 style={{ color: '#F5F5DC',textShadow: '3px 3px 4px #000000', fontFamily: 'Arial', fontSize: '40px', margin:'auto' }}>Contacto</h1>
         
         <div className='form-container' style={{ height: '500px', display: 'flex' }}>
