@@ -1,3 +1,5 @@
+
+
 import Navbar from "./components/Navbar";
 import Comenzar from "./components/Comenzar";
 import Contacto from "./components/Contacto";
@@ -34,6 +36,8 @@ function App() {
 
 
           </div>
+
+    
 
       </div>
 

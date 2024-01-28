@@ -1,9 +1,24 @@
+import Button from 'react-bootstrap/Button';
 import React from 'react';
 
 
 const Contacto = () => {
     return (
     <> 
+      
+      <div className="row">
+        <div className="col">
+          Columna 1
+        </div>
+        <div className="col">
+        <Button variant="primary">
+                Enviar
+            </Button>
+        </div>
+      </div>
+      
+
+ 
     <div className='container' style={{  backgroundSize: 'cover', height: '500px', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', paddingTop: '50px' }}>
     <h1 style={{ color: '#F5F5DC',textShadow: '3px 3px 4px #000000', fontFamily: 'Arial', fontSize: '40px', margin:'auto' }}>Contacto</h1>
         
