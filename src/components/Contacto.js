@@ -1,11 +1,19 @@
 import React from 'react';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Contacto = () => {
     return (
     <> 
+    <div className='row'>   
+    <div className='col'>1</div>
+    <div className='col'>2</div>
+    </div>
+
     <div className='container' style={{  backgroundSize: 'cover', height: '500px', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', paddingTop: '50px' }}>
     <h1 style={{ color: '#F5F5DC',textShadow: '3px 3px 4px #000000', fontFamily: 'Arial', fontSize: '40px', margin:'auto' }}>Contacto</h1>
+
+
+
         
         <div className='form-container' style={{ height: '500px', display: 'flex' }}>
             <div className='form-column' style={{ flex: '1', padding: '20px' , marginTop:'50px'}}>
@@ -43,6 +51,8 @@ const Contacto = () => {
             </div>
         </div>
     </div>
+
+    
     </>
     );
 };

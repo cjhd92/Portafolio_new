@@ -2,8 +2,6 @@ import Navbar from "./components/Navbar";
 import Comenzar from "./components/Comenzar";
 import Contacto from "./components/Contacto";
 import Sobre_mi from "./components/Sobre_mi";
-
-
 import './App.css';
 
 function App() {
@@ -20,40 +18,17 @@ function App() {
 
           <Navbar />
         
-      </header>
-      
+      </header>     
       </div>
-
-      
+     
       <div className="contenedor-contenido">
         <div className="contenido">
           
         <Comenzar/>
         <Sobre_mi />
         <Contacto />
-
-
           </div>
-
       </div>
-
-      
-      
-
-      
-
-     
-
-
-
-      
-     
-
-
-    
- 
-      
-      
     </>
       
    
