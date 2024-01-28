@@ -1,15 +1,6 @@
 import React from 'react';
 
 
-// const Contacto = () => {
-//     return (
-//         <div className='container' style={{ backgroundImage: 'url(/contact_backg.png)',backgroundSize: 'cover' , height: '500px' }}>
-//             Contacto 
-//         </div>
-//     );
-// };
-
-
 const Contacto = () => {
     return (
     <> 
@@ -26,7 +17,7 @@ const Contacto = () => {
                     </div>
                     <div>
                         <label htmlFor="telefono" style={{color: '#F5F5DC',textShadow: '3px 3px 4px #000000'}} >Teléfono:</label> 
-                        <input type="text" id="telefono" name="telefono" />
+                        <input type="number" id="telefono" name="telefono" />
                     </div>
                     <div>
                         <label htmlFor="correo" style={{color: '#F5F5DC',textShadow: '3px 3px 4px #000000'}}>Correo:</label>
