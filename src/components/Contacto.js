@@ -1,15 +1,6 @@
 import React from 'react';
 
 
-// const Contacto = () => {
-//     return (
-//         <div className='container' style={{ backgroundImage: 'url(/contact_backg.png)',backgroundSize: 'cover' , height: '500px' }}>
-//             Contacto 
-//         </div>
-//     );
-// };
-
-
 const Contacto = () => {
     return (
     <> 
