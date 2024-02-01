@@ -20,7 +20,7 @@
     width: 100%;
     top:0;
     left: 0;
-    background: linear-gradient(to right, #1CB698, #1e2326, white);
+    background: rgb(30, 35, 38,0.95);
     
 }
 .contenedor-contenido .contenido{

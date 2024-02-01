@@ -1,0 +1,55 @@
+
+.skill span{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+    
+}
+
+
+.skill .barra_skill{
+    height: 8px;
+    width: 400px;
+    background-color: #131517;
+    position: relative;
+    margin-bottom: 30;
+    
+    
+}
+
+.skill .progreso{
+    background-color: #1CB698;
+    position: absolute;
+    height: 8px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    
+}
+
+.skill .barra_skill span{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: #1CB698;
+    border-radius: 50px;
+    line-height: 40px;
+    text-align: center;
+    top: -16px;
+    font-size: 14px;
+    
+    right: -15px;
+    z-index: 2;
+}
+
+
+.javascript {
+    width: 0%;
+    animation:  2s javascript forwards;
+}
+
+@keyframes javascript{
+    0%{width: 0%;}
+    100%{width: 75%;}
+
+}

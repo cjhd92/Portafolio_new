@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import Comenzar from "./components/Comenzar";
 import Contacto from "./components/Contacto";
 import Sobre_mi from "./components/Sobre_mi";
-
+import Skill from "./components/Skill";
 
 import './App.css';
 
@@ -32,6 +32,7 @@ function App() {
           
         <Comenzar/>
         <Sobre_mi />
+        <Skill />
         <Contacto />
 
 

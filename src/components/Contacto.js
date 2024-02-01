@@ -6,16 +6,7 @@ const Contacto = () => {
     return (
     <> 
       
-      <div className="row">
-        <div className="col">
-          Columna 1
-        </div>
-        <div className="col">
-        <Button variant="primary">
-                Enviar
-            </Button>
-        </div>
-      </div>
+ 
       
 
  
