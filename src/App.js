@@ -1,17 +1,67 @@
-import Navbar from './components/Navbar';
-import Comenzar from './components/Comenzar';
-import Contacto from './components/Contacto';
+
+
+import Navbar from "./components/Navbar";
+import Comenzar from "./components/Comenzar";
+import Contacto from "./components/Contacto";
+import Sobre_mi from "./components/Sobre_mi";
+import Skill from "./components/Skill";
 
 import './App.css';
 
-
 function App() {
-  return (<>  
-  <h1>Hola hello</h1>
-  <Navbar />
-  <Comenzar />
-  <Contacto />
-  </>
+  return (
+    <>
+    
+    <div className="contenedor-header">
+        <header>
+          <div className='logo'>
+
+              <a href='#'>Nick</a>
+
+          </div>
+
+          <Navbar />
+        
+      </header>
+      
+      </div>
+
+      
+      <div className="contenedor-contenido">
+        <div className="contenido">
+          
+        <Comenzar/>
+        <Sobre_mi />
+        <Skill />
+        <Contacto />
+
+
+          </div>
+
+    
+
+      </div>
+
+      
+      
+
+      
+
+     
+
+
+
+      
+     
+
+
+    
+ 
+      
+      
+    </>
+      
+   
   );
 }
 

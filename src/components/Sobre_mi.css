@@ -1,0 +1,115 @@
+.titulo{
+    text-align: center;
+    color: white;
+    padding: 50px 20px;
+    
+}
+
+.titulo h2{
+    font-size: 48px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.titulo p{
+    font: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+
+}
+
+.titulo p span{
+    color: #1CB698;
+    font-weight: bold;
+}
+
+.subtitulo{
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 25px;
+    color: white;
+}
+
+ul{
+    list-style: none;
+}
+ul li{
+    margin: 10px 0;
+}
+li{
+    color: white;
+}
+
+ul li strong{
+    color: #1CB698;
+    width: 130px;
+    display: inline-block;
+    
+    
+}
+
+
+ul li span{
+    background-color: #1CB698;
+    padding: 3px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+
+
+
+.contenedor_interese{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.contenedor_interese .interes{
+    width: 100px;
+    height: 100px;
+    background-color: #252A2E;
+    border-radius: 10px;
+    margin: 0 15px 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+    color: white;
+}
+
+.contenedor_interese .interes:hover{
+    background-color: #1CB698;
+}
+
+.contenedor_interese .interes i{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+
+.btn{
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.btn .btn_descargar{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid white;
+    width: fit-content;
+    display: block;
+    color: white;
+    z-index: 10;
+}
+
+.btn .btn_descargar .i{
+    margin-left: 20px;
+}
